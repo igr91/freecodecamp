@@ -11,8 +11,8 @@ This is an interesting and fulfilling journey, I like it!
 
 -----------------
 
-#### Responsive Web Design
-[Course](https://www.freecodecamp.org/learn/responsive-web-design/) and [certification](https://www.freecodecamp.org/certification/igr91/responsive-web-design)
+### Responsive Web Design
+#### [Course](https://www.freecodecamp.org/learn/responsive-web-design/) and [certification](https://www.freecodecamp.org/certification/igr91/responsive-web-design)
 
 Solutions:
 * [Tribute Page](https://codepen.io/igr91/pen/eYdKGjN)
@@ -22,9 +22,9 @@ Solutions:
 * [Personal Portfolio](https://codepen.io/igr91/pen/jOMgKrY)
 
 -----------------
-#### Javascript Algorithms and Data Structures
+### Javascript Algorithms and Data Structures
 
-[Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) and [certification](https://www.freecodecamp.org/certification/igr91/javascript-algorithms-and-data-structures)
+#### [Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) and [certification](https://www.freecodecamp.org/certification/igr91/javascript-algorithms-and-data-structures)
 
 Solutions:
 
