@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="main" class="background">
+    <div id="welcome" class="welcome">
+      <h1 id="title">Delicious Ice Cream Shop</h1>
+      <h2 id="title-2">Customer Survey</h2>
+      <p id="description">
+        Please speak your mind. Honest opinions help us improve!
+      </p>
+    </div>
+
+    <form id="survey-form" class="icecreamtray">
+      <div>
+        <label id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div>
+        <label id="email-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <div>
+        <label id="number-label">Age (optional)</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter your age"
+          min="1"
+          max="130"
+        />
+      </div>
+
+      <div>
+        <label id="dropdown-label">Branch where you usually go?</label>
+        <select id="dropdown" name="dropdownselection">
+          <option value="Palermo">Palermo</option>
+          <option value="Recoleta">Recoleta</option>
+          S
+          <option value="Almagro">Almagro</option>
+          <option value="Nunez">Nuñez</option>
+        </select>
+      </div>
+
+      <div>
+        <p id="recommendfriend">Would you recommend this branch to a friend?</p>
+        <label
+          ><input
+            type="radio"
+            id="option1"
+            value="yes"
+            name="radiooptions"
+          />Absolutely!</label
+        >
+        <label
+          ><input
+            type="radio"
+            id="option2"
+            value="maybe"
+            name="radiooptions"
+          />Maybe...</label
+        >
+        <label
+          ><input type="radio" id="option3" value="no" name="radiooptions" />No
+          way</label
+        >
+      </div>
+
+      <div>
+        <p id="flavorcheck">Please tell us your favourite flavor families</p>
+        <label
+          ><input
+            type="checkbox"
+            value="vanillas"
+            name="checkoptions"
+          />Vanillas</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            value="chocolates"
+            name="checkoptions"
+          />Chocolates</label
+        >
+        <label
+          ><input type="checkbox" value="ddls" name="checkoptions" />Dulce de
+          Leches</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            value="fruits"
+            name="checkoptions"
+          />Fruits</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            value="alcohol"
+            name="checkoptions"
+          />Alcohol-infused</label
+        >
+      </div>
+
+      <div>
+        <p id="extracomments">Please write any further comments here</p>
+        <textarea
+          id="comments"
+          placeholder="Any comments?"
+          name="textareacomments"
+        ></textarea>
+      </div>
+
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

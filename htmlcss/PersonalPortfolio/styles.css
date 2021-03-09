@@ -1,0 +1,280 @@
+/* general */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.project-font {
+  font-family: "Arimo", sans-serif;
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0466c8;
+
+  width: 100%;
+  height: 64px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 1.5rem;
+}
+
+.nav-link > a {
+  color: white;
+  font-weight: 800;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 3px #ffffff;
+}
+
+/* welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(66deg, #001233, #001845, #002855, #023e7d);
+  animation: welcomebackground 10s ease infinite;
+  background-size: 250% 250%;
+
+  height: 100vh;
+  width: 100%;
+
+  text-align: center;
+}
+
+@keyframes welcomebackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.welcome-h1 {
+  font-size: 48px;
+  color: #88C2FC;
+  text-shadow: 0 0 1px #88C2FC;
+}
+
+.welcome-h2 {
+  font-size: 36px;
+  color: #88C2FC;
+  text-shadow: 0 0 1px #88C2FC;
+}
+
+/* projects section*/
+
+.project-font {
+  font-family: "Signika", sans-serif;
+  color: #ffffff;
+}
+
+.projects-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #00171f;
+
+  border-top: 4px solid #ffffff;
+}
+
+.main-project-intro {
+  font-size: 36px;
+  margin: 4rem 0 2rem 0;
+}
+
+.unit-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.project-unit {
+  margin: 1rem 0 1rem 0;
+  padding: 0;
+}
+
+.project-tile-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.project-tile {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  border-radius: 2em;
+  flex: 2 1 250px;
+  margin: 1rem;
+  text-align: center;
+  background-color: #002430;
+}
+
+.project-tile:hover {
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.project-image {
+  max-width: 100%;
+  max-height: auto;
+}
+
+/*contact section*/
+
+.contact-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  text-align: center;
+
+  background: linear-gradient(180deg, #00171f, #0466c8);
+  color: #ffffff;
+}
+
+.contact-h1 {
+  font-size: 40px;
+}
+
+.contact-p {
+  font-size: 20px;
+  margin: 2rem 0 8rem 0;
+}
+
+@media (max-width: 480px) {
+  .contact-p {
+    margin: 2rem 0 1rem 0;
+  }
+}
+
+.contact-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  width: 80%;
+}
+
+@media (max-width: 480px) {
+  .contact-list {
+    flex-flow: column wrap;
+    width: 100%;
+  }
+}
+
+.contact-list > li {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+@media (max-width: 480px) {
+  .contact-list > li {
+    margin: 1rem;
+  }
+}
+
+.contact-list > li > a {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+i {
+  color: #ffffff;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #0466c8;
+
+  height: 64px;
+  width: 100%;
+}
+
+.footer > p {
+  color: #ffffff;
+  padding: 1rem;
+}
