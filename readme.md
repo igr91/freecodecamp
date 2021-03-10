@@ -16,11 +16,11 @@ This is an interesting and fulfilling journey, I like it!
 
 #### Solutions:
 
-* **Tribute Page** | [Codepen](https://codepen.io/igr91/pen/eYdKGjN) | [This repository](htmlcss/Tribute)
-* **Survey Form** | [Codepen](https://codepen.io/igr91/pen/abmjWzg) | [This repository](htmlcss/Survey)
-* **Product Landing Page** | [Codepen](https://codepen.io/igr91/pen/ExgpOoW) | [This repository](htmlcss/LandingPage)
-* **Technical Documentation Page** | [Codepen](https://codepen.io/igr91/pen/xxEmdNM) | [This repository](htmlcss/TechSpecs/)
-* **Personal Portfolio** | [Codepen](https://codepen.io/igr91/pen/jOMgKrY) | [This repository](htmlcss/PersonalPortfolio)
+* **Tribute Page** | [Codepen](https://codepen.io/igr91/pen/eYdKGjN) | [This repository](ProjectSolutions/ResponsiveWebDesign/Tribute)
+* **Survey Form** | [Codepen](https://codepen.io/igr91/pen/abmjWzg) | [This repository](ProjectSolutions/ResponsiveWebDesign/Survey)
+* **Product Landing Page** | [Codepen](https://codepen.io/igr91/pen/ExgpOoW) | [This repository](ProjectSolutions/ResponsiveWebDesign/LandingPage)
+* **Technical Documentation Page** | [Codepen](https://codepen.io/igr91/pen/xxEmdNM) | [This repository](ProjectSolutions/ResponsiveWebDesign/TechnicalDocumentation)
+* **Personal Portfolio** | [Codepen](https://codepen.io/igr91/pen/jOMgKrY) | [This repository](ProjectSolutions/ResponsiveWebDesign/PersonalPortfolio)
 
 -----------------
 ### Javascript Algorithms and Data Structures
@@ -29,10 +29,10 @@ This is an interesting and fulfilling journey, I like it!
 
 #### Solutions:
 
-* **Palindrome Checker** | [This repository](js/palindromeChecker.js)
-* **Roman Numeral Converter** | [This repository](js/convertToRoman.js)
-* **Caesar's Cipher** | [This repository](js/caesarsCipher.js)
-* **Telephone Number Validator** | [This repository](js/telephoneCheck.js)
-* **Cash Register** | [This repository](js/checkCashRegister.js)
+* **Palindrome Checker** | [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/palindromeChecker.js)
+* **Roman Numeral Converter** | [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/convertToRoman.js)
+* **Caesar's Cipher** | [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/caesarsCipher.js)
+* **Telephone Number Validator** | [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/telephoneCheck.js)
+* **Cash Register** | [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/checkCashRegister.js)
 
 
