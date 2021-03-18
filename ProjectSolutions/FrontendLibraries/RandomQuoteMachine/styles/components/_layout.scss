@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: $main-fonts;
+    transition: all 1.5s ease;
+
+    #quote-box {
+        padding: 2rem;
+        background-color: #FFFFFF;
+        border: #000000 solid 4px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+        h2 {
+            padding: 1rem;
+            font-weight: 400;
+        }
+
+        h4 {
+            padding: 1rem;
+            font-weight: 300;
+        }
+
+        #quote-subbox {
+
+            width: 100%;
+            height: auto;
+
+            button {
+                color: #FFFFFF;
+                background-color: #000000;
+            }
+
+            a {
+                text-decoration: none;
+
+                i {
+                    font-size: 2.7em;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
