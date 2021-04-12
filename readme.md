@@ -59,3 +59,6 @@ All pure HTML5+CSS3
 * **Markdown Previewer**
     * [Codepen](https://codepen.io/igr91/pen/XWpbLWL) | [This Repository](ProjectSolutions/FrontendLibraries/markdownpreviewer)
   * (HTML5+CSS3, React, JS, Styled Components)
+* **Drum Machine**
+    * [Codepen](https://codepen.io/igr91/pen/ExZXVNa) | [This Repository](ProjectSolutions/FrontendLibraries/drummachine)
+  * (HTML5+CSS3, React, JS, Styled Components)
