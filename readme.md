@@ -62,3 +62,6 @@ All pure HTML5+CSS3
 * **Drum Machine**
     * [Codepen](https://codepen.io/igr91/pen/ExZXVNa) | [This Repository](ProjectSolutions/FrontendLibraries/drummachine)
   * (HTML5+CSS3, React, JS, Styled Components)
+* **JavaScript Calculator**
+    * [Codepen](https://codepen.io/igr91/pen/NWdYKqz) | [This Repository](ProjectSolutions/FrontendLibraries/jscalculator)
+  * (HTML5+CSS3, React Hooks, JS, Sass)

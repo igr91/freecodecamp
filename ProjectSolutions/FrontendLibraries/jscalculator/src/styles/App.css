@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Farro", sans-serif;
+  background-color: #f8f9faff;
+}
+
+.grid-container {
+  display: grid;
+  border: 10px solid #212529ff;
+  border-radius: 10px;
+  background-color: #212529ff;
+  grid-template-columns: repeat(4, minmax(5rem, 1fr));
+  grid-template-rows: 100px repeat(5, 5rem);
+  gap: 2px 2px;
+  grid-template-areas:
+    "grid-display grid-display grid-display grid-display"
+    "grid-clear grid-clear grid-divide grid-multiply"
+    "grid-seven grid-eight grid-nine grid-subtract"
+    "grid-four grid-five grid-six grid-add"
+    "grid-one grid-two grid-three grid-equals"
+    "grid-zero grid-zero grid-decimal grid-equals";
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color: #343a40ff;
+  border: 1px solid #212529ff;
+}
+
+button :hover {
+  background-color: #6c757dff;
+}
+
+button :active {
+  background-color: #adb5bdff;
+}
+
+button h3 {
+  color: #f8f9faff;
+}
+
+.grid-style,
+.grid-nine,
+.grid-eight,
+.grid-seven,
+.grid-six,
+.grid-five,
+.grid-four,
+.grid-three,
+.grid-two,
+.grid-one,
+.grid-zero,
+.grid-decimal,
+.grid-equals,
+.grid-add,
+.grid-subtract,
+.grid-multiply,
+.grid-divide,
+.grid-clear {
+  background-color: #343a40ff;
+}
+
+.grid-style :hover,
+.grid-nine :hover,
+.grid-eight :hover,
+.grid-seven :hover,
+.grid-six :hover,
+.grid-five :hover,
+.grid-four :hover,
+.grid-three :hover,
+.grid-two :hover,
+.grid-one :hover,
+.grid-zero :hover,
+.grid-decimal :hover,
+.grid-equals :hover,
+.grid-add :hover,
+.grid-subtract :hover,
+.grid-multiply :hover,
+.grid-divide :hover,
+.grid-clear :hover {
+  background-color: #6c757dff;
+}
+
+.grid-style :active,
+.grid-nine :active,
+.grid-eight :active,
+.grid-seven :active,
+.grid-six :active,
+.grid-five :active,
+.grid-four :active,
+.grid-three :active,
+.grid-two :active,
+.grid-one :active,
+.grid-zero :active,
+.grid-decimal :active,
+.grid-equals :active,
+.grid-add :active,
+.grid-subtract :active,
+.grid-multiply :active,
+.grid-divide :active,
+.grid-clear :active {
+  background-color: #adb5bdff;
+}
+
+.grid-display {
+  grid-area: grid-display;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  background-color: #f8f9faff;
+  padding: 1rem;
+  margin: 0;
+}
+
+.grid-display #display,
+.grid-display #secondary-display {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-clear {
+  grid-area: grid-clear;
+}
+
+.grid-divide {
+  grid-area: grid-divide;
+}
+
+.grid-multiply {
+  grid-area: grid-multiply;
+}
+
+.grid-subtract {
+  grid-area: grid-subtract;
+}
+
+.grid-add {
+  grid-area: grid-add;
+}
+
+.grid-equals {
+  grid-area: grid-equals;
+}
+
+.grid-decimal {
+  grid-area: grid-decimal;
+}
+
+.grid-zero {
+  grid-area: grid-zero;
+}
+
+.grid-one {
+  grid-area: grid-one;
+}
+
+.grid-two {
+  grid-area: grid-two;
+}
+
+.grid-three {
+  grid-area: grid-three;
+}
+
+.grid-four {
+  grid-area: grid-four;
+}
+
+.grid-five {
+  grid-area: grid-five;
+}
+
+.grid-six {
+  grid-area: grid-six;
+}
+
+.grid-seven {
+  grid-area: grid-seven;
+}
+
+.grid-eight {
+  grid-area: grid-eight;
+}
+
+.grid-nine {
+  grid-area: grid-nine;
+}
