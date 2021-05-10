@@ -49,7 +49,7 @@ All pure HTML5+CSS3
 
 -----------------
 ### Front End Development Libraries 
-#### [Course](https://www.freecodecamp.org/learn/front-end-libraries/)
+#### [Course](https://www.freecodecamp.org/learn/front-end-libraries/) and [certification](https://www.freecodecamp.org/certification/igr91/front-end-libraries)
 
 #### Solutions:
 
@@ -64,4 +64,7 @@ All pure HTML5+CSS3
   * (HTML5+CSS3, React, JS, Styled Components)
 * **JavaScript Calculator**
     * [Codepen](https://codepen.io/igr91/pen/NWdYKqz) | [This Repository](ProjectSolutions/FrontendLibraries/jscalculator)
-  * (HTML5+CSS3, React Hooks, JS, Sass)
+  * (HTML5+CSS3, React Hooks (useReducer), JS, Sass)
+* **25+5 Clock**
+    * [Codepen](https://codepen.io/igr91/pen/abJzjZG) | [This Repository](ProjectSolutions/FrontendLibraries/255clock)
+  * (HTML5+CSS3, React Hooks (useState, useEffect, useRef), JS, Sass)
