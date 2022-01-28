@@ -68,3 +68,17 @@ All pure HTML5+CSS3
 * **25+5 Clock**
     * [Codepen](https://codepen.io/igr91/pen/abJzjZG) | [This Repository](ProjectSolutions/FrontendLibraries/255clock)
   * (HTML5+CSS3, React Hooks (useState, useEffect, useRef), JS, Sass)
+
+-----------------
+
+### Back End Development and APIs 
+
+#### [Course](https://www.freecodecamp.org/learn/back-end-development-and-apis/) 
+#### Solutions:
+
+* **Timestamp Microservice**
+    * [Replit](https://boilerplate-project-timestamp--igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-timestamp)
+  * (HTML5+CSS3, Bootstrap, JS, Sass)
+* **Request Header Parser Microservice**
+    * [Replit](https://boilerplate-project-headerparser.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-headerparser)
+  * (HTML5+CSS3, React, JS, Styled Components)
