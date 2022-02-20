@@ -4,17 +4,19 @@ Here are all my freeCodeCamp solutions so far for each project, required to earn
 
 This is an interesting and fulfilling journey, I like it!
 
-### Check my progress here:
+### Check my progress here
 
 * [freeCodeCamp - igr91](https://www.freecodecamp.org/igr91)
 * [codepen - igr91](https://codepen.io/igr91)
+* [replit - igr91](https://replit.com/@igr91/)
 
 -----------------
 
 ### Responsive Web Design
+
 #### [Course](https://www.freecodecamp.org/learn/responsive-web-design/) and [certification](https://www.freecodecamp.org/certification/igr91/responsive-web-design)
 
-#### Solutions:
+#### Solutions
 
 All pure HTML5+CSS3
 
@@ -30,11 +32,12 @@ All pure HTML5+CSS3
   * [Codepen](https://codepen.io/igr91/pen/jOMgKrY) | [This repository](ProjectSolutions/ResponsiveWebDesign/PersonalPortfolio)
 
 -----------------
+
 ### Javascript Algorithms and Data Structures
 
 #### [Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) and [certification](https://www.freecodecamp.org/certification/igr91/javascript-algorithms-and-data-structures)
 
-#### Solutions:
+#### Solutions
 
 * **Palindrome Checker**
   * [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/palindromeChecker.js)
@@ -48,37 +51,43 @@ All pure HTML5+CSS3
   * [This repository](ProjectSolutions/JSAlgorithmsAndDataStructures/checkCashRegister.js)
 
 -----------------
-### Front End Development Libraries 
+
+### Front End Development Libraries
+
 #### [Course](https://www.freecodecamp.org/learn/front-end-libraries/) and [certification](https://www.freecodecamp.org/certification/igr91/front-end-libraries)
 
-#### Solutions:
+#### Solutions
 
 * **Random Quote Machine**
-    * [Codepen](https://codepen.io/igr91/pen/WNoWGNP) | [This Repository](ProjectSolutions/FrontendLibraries/RandomQuoteMachine)
+  * [Codepen](https://codepen.io/igr91/pen/WNoWGNP) | [This Repository](ProjectSolutions/FrontendLibraries/RandomQuoteMachine)
   * (HTML5+CSS3, Bootstrap, JS, Sass)
 * **Markdown Previewer**
-    * [Codepen](https://codepen.io/igr91/pen/XWpbLWL) | [This Repository](ProjectSolutions/FrontendLibraries/markdownpreviewer)
+  * [Codepen](https://codepen.io/igr91/pen/XWpbLWL) | [This Repository](ProjectSolutions/FrontendLibraries/markdownpreviewer)
   * (HTML5+CSS3, React, JS, Styled Components)
 * **Drum Machine**
-    * [Codepen](https://codepen.io/igr91/pen/ExZXVNa) | [This Repository](ProjectSolutions/FrontendLibraries/drummachine)
+  * [Codepen](https://codepen.io/igr91/pen/ExZXVNa) | [This Repository](ProjectSolutions/FrontendLibraries/drummachine)
   * (HTML5+CSS3, React, JS, Styled Components)
 * **JavaScript Calculator**
-    * [Codepen](https://codepen.io/igr91/pen/NWdYKqz) | [This Repository](ProjectSolutions/FrontendLibraries/jscalculator)
+  * [Codepen](https://codepen.io/igr91/pen/NWdYKqz) | [This Repository](ProjectSolutions/FrontendLibraries/jscalculator)
   * (HTML5+CSS3, React Hooks (useReducer), JS, Sass)
 * **25+5 Clock**
-    * [Codepen](https://codepen.io/igr91/pen/abJzjZG) | [This Repository](ProjectSolutions/FrontendLibraries/255clock)
+  * [Codepen](https://codepen.io/igr91/pen/abJzjZG) | [This Repository](ProjectSolutions/FrontendLibraries/255clock)
   * (HTML5+CSS3, React Hooks (useState, useEffect, useRef), JS, Sass)
 
 -----------------
 
-### Back End Development and APIs 
+### Back End Development and APIs
 
-#### [Course](https://www.freecodecamp.org/learn/back-end-development-and-apis/) 
-#### Solutions:
+#### [Course](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+
+#### Solutions
 
 * **Timestamp Microservice**
-    * [Replit](https://boilerplate-project-timestamp--igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-timestamp)
-  * (HTML5+CSS3, Bootstrap, JS, Sass)
+  * [Replit](https://boilerplate-project-timestamp--igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-timestamp)
+  * (Node.js, Express)
 * **Request Header Parser Microservice**
-    * [Replit](https://boilerplate-project-headerparser.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-headerparser)
-  * (HTML5+CSS3, React, JS, Styled Components)
+  * [Replit](https://boilerplate-project-headerparser.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-headerparser)
+  * (Node.js, Express)
+* **URL Shortener Microservice**
+  * [Replit](https://boilerplate-project-urlshortener.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-urlshortener)
+  * (Node.js, Express, MongoDB, Mongoose, body-parser)
