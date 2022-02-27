@@ -91,3 +91,6 @@ All pure HTML5+CSS3
 * **URL Shortener Microservice**
   * [Replit](https://boilerplate-project-urlshortener.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-urlshortener)
   * (Node.js, Express, MongoDB, Mongoose, body-parser)
+* **Exercise Tracker Microservice**
+  * [Replit](https://boilerplate-project-exercisetracker.igr91.repl.co) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-exercisetracker)
+  * (Node.js, Express, MongoDB, Mongoose, body-parser)
