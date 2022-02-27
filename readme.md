@@ -78,7 +78,7 @@ All pure HTML5+CSS3
 
 ### Back End Development and APIs
 
-#### [Course](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+#### [Course](https://www.freecodecamp.org/learn/back-end-development-and-apis/) and [certification](https://www.freecodecamp.org/certification/igr91/back-end-development-and-apis)
 
 #### Solutions
 
@@ -91,6 +91,9 @@ All pure HTML5+CSS3
 * **URL Shortener Microservice**
   * [Replit](https://boilerplate-project-urlshortener.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-urlshortener)
   * (Node.js, Express, MongoDB, Mongoose, body-parser)
-* **Exercise Tracker Microservice**
+* **Exercise Tracker**
   * [Replit](https://boilerplate-project-exercisetracker.igr91.repl.co) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-exercisetracker)
   * (Node.js, Express, MongoDB, Mongoose, body-parser)
+* **File Metadata Microservice**
+  * [Replit](https://boilerplate-project-filemetadata.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-filemetadata)
+  * (Node.js, Express, multer, fs)

@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 
-
 app.use(cors());
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -16,14 +15,12 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
 const listener = app.listen(process.env.PORT || 3000, () => {
   console.log('Your app is listening on port ' + listener.address().port)
 })
 
-// ============================================
-// FCC boilerplate ends here
-// ============================================
+
+
 
 const userSchema = new Schema({
   username: { type: String, required: true },
@@ -77,6 +74,9 @@ app.post("/api/users/:_id/exercises", (req, res) => {
   let date;
   let dateD;
 
+  // handle optional date in body
+  // keep two dates, string based date for responses,
+  // Date based date for date range search
   if (req.body.date) {
     date = new Date(req.body.date).toDateString();
     dateD = new Date(req.body.date);
@@ -107,7 +107,7 @@ app.post("/api/users/:_id/exercises", (req, res) => {
         username: dataUser.username,
         description: dataExc.description,
         duration: dataExc.duration,
-        date: date
+        date: dataExc.date
       });
     });
   });
@@ -118,6 +118,9 @@ app.get("/api/users/:_id/logs", (req, res) => {
   const id = req.params._id;
   const { from, to, limit } = req.query;
 
+  // id param is required while from, to and limit are optional, 
+  // so build the query object as required
+  
   let query = {
     userId: id
   };
