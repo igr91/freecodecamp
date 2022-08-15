@@ -97,3 +97,15 @@ All pure HTML5+CSS3
 * **File Metadata Microservice**
   * [Replit](https://boilerplate-project-filemetadata.igr91.repl.co/) | [This Repository](ProjectSolutions/BackEndDevelopmentAndAPIs/boilerplate-project-filemetadata)
   * (Node.js, Express, multer, fs)
+
+-----------------
+
+### Quality Assurance
+
+#### [Course](https://www.freecodecamp.org/learn/quality-assurance/)
+
+#### Solutions
+
+* **Metric-Imperial Converter**
+  * [Replit](https://boilerplate-project-metricimpconverter.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-metricimpconverter)
+  * (Node.js, Express, Mocha+Chai)
