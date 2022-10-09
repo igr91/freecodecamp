@@ -112,3 +112,6 @@ All pure HTML5+CSS3
 * **Issue Tracker**
   * [Replit](https://boilerplate-project-issuetracker.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-issuetracker)
   * (Node.js, Express, MongoDB, Mongoose, uuid, Mocha+Chai -chai-json-schema-)
+* **Personal Library**
+  * [Replit](https://boilerplate-project-library.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-library)
+  * (Node.js, Express, MongoDB, Mongoose, Mocha+Chai)
