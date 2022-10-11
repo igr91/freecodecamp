@@ -115,3 +115,6 @@ All pure HTML5+CSS3
 * **Personal Library**
   * [Replit](https://boilerplate-project-library.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-library)
   * (Node.js, Express, MongoDB, Mongoose, Mocha+Chai)
+* **Sudoku Solver**
+  * [Replit](https://boilerplate-project-sudoku-solver.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-sudoku-solver)
+  * (Node.js, Express, Mocha+Chai)
