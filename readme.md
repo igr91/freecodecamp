@@ -102,7 +102,7 @@ All pure HTML5+CSS3
 
 ### Quality Assurance
 
-#### [Course](https://www.freecodecamp.org/learn/quality-assurance/)
+#### [Course](https://www.freecodecamp.org/learn/quality-assurance/) and [certification](https://www.freecodecamp.org/certification/igr91/quality-assurance-v7)
 
 #### Solutions
 
@@ -117,4 +117,7 @@ All pure HTML5+CSS3
   * (Node.js, Express, MongoDB, Mongoose, Mocha+Chai)
 * **Sudoku Solver**
   * [Replit](https://boilerplate-project-sudoku-solver.igr91.repl.co) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-sudoku-solver)
+  * (Node.js, Express, Mocha+Chai)
+* **American British Translator**
+  * [Replit](https://boilerplate-project-american-british-english-translator.igr91.repl.co/) | [This Repository](ProjectSolutions/QualityAssurance/boilerplate-project-american-british-english-translator)
   * (Node.js, Express, Mocha+Chai)

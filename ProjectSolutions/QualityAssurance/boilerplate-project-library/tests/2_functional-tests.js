@@ -56,7 +56,7 @@ suite('Functional Tests', function () {
                     .post('/api/books')
                     .send()
                     .end(function (err, res) {
-                        //assert.equal(res.status, 401)
+                        //assert.equal(res.status, 400)
                         assert.equal(res.text, expectedResponse);
                         expect(res.text).to.be.a("string");
                         done();
@@ -144,7 +144,7 @@ suite('Functional Tests', function () {
                     .post('/api/books/' + books[0]._id)
                     .send()
                     .end(function (err, res) {
-                        //assert.equal(res.status, 401)
+                        //assert.equal(res.status, 400)
                         assert.equal(res.text, expectedResponse);
                         expect(res.text).to.be.a("string");
                         done();
